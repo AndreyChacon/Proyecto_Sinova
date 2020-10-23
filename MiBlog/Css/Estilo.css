@@ -1,0 +1,142 @@
+/*-----------------------Contenido Encabezado y Logo-----------------------------*/
+
+*¨{
+margin: 0;
+padding: 0;
+}
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    padding-top: 20px;
+}
+
+.TitulosH2{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 3px;
+    border-bottom: 4px solid black;
+    font-weight: bold;    
+}
+
+
+.Contenido {
+    width: 90%;
+    margin:auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.Navegacion a{
+    color:black;
+    margin-right: 22px;
+    text-decoration: none;
+}
+
+
+.Navegacion a:hover { 
+    color: #f78a08;
+    text-decoration:none; 
+}
+
+.SelectionImagen{
+    widows: 100px;
+    margin-top: 20%;
+}
+
+.ContenidoMain {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.Articulo {
+    width: 25%;
+}
+
+.ContenidoMainImg {
+    width: 30%;
+    margin: auto;
+}
+
+.ContenidoMainImg  img{
+    width: 100%;
+}
+
+.TextoMain {
+    text-align: center;
+    padding: 20%;
+}
+
+.SelectBlog {
+    width: 100%;
+}
+
+.ContenidoBlog {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ArticuloBlog {
+    width: 30%;
+    border: 1px solid black;
+    height: 520px;
+}
+
+.ArticuloBlog img{
+    width: 100%;
+}
+
+.TextoBlog{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.TextoBlog a{
+    text-align: center;
+    text-decoration: none;
+    background: #f78a08;
+    padding: 12px 125px;
+    font-size: 15px;
+    color: white;
+}
+
+.SelecRecomendaciones{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Parrafo{
+    margin: auto;
+}
+
+.Pie{
+    border-top: solid 3px #f78a08;
+    padding: 20px;
+
+}
+
+.ContenidoPie{
+    width: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
